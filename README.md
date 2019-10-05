@@ -1,2 +1,2 @@
 # CosoEngine
-Youtube Series by TheCherno
+Hazel Engine by The Cherno = CosoEngine
