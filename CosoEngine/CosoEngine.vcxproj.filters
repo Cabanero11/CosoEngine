@@ -6,7 +6,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\CosoEngine.h" />
+    <ClInclude Include="src\CosoEngine\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\CosoEngine\Events\Event.h" />
+    <ClInclude Include="src\CosoEngine\Events\KeyEvent.h" />
+    <ClInclude Include="src\CosoEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\CosoEngine\Application.h">
       <Filter>CosoEngine</Filter>
     </ClInclude>
@@ -19,6 +22,7 @@
     <ClInclude Include="src\CosoEngine\Log.h">
       <Filter>CosoEngine</Filter>
     </ClInclude>
+    <ClInclude Include="src\CosoEngine.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\CosoEngine\Application.cpp">
