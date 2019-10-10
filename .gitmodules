@@ -1,0 +1,3 @@
+[submodule "CosoEngine/vendor/spdlog"]
+	path = CosoEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

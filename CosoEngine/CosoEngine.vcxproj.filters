@@ -1,36 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Archivos de origen">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Archivos de encabezado">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Archivos de recursos">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="CosoEngine">
+      <UniqueIdentifier>{2F966EF1-1B4E-B03E-8455-899A702C4B2F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\CosoEngine\Core.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
+    <ClInclude Include="src\CosoEngine.h" />
     <ClInclude Include="src\CosoEngine\Application.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>CosoEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\CosoEngine.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="src\CosoEngine\Core.h">
+      <Filter>CosoEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\CosoEngine\EntryPoint.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>CosoEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CosoEngine\Log.h">
+      <Filter>CosoEngine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\CosoEngine\Application.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>CosoEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CosoEngine\Log.cpp">
+      <Filter>CosoEngine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
